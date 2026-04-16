@@ -9,7 +9,7 @@ body {
 
 
 nav {
-  display: flex;
+  display: grid;
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
