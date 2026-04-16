@@ -32,3 +32,13 @@ section {
   padding: 10px;
   border-radius: 8px;
 }
+
+
+
+img {
+  width: 300px;          /* sets image width */
+  height: auto;          /* keeps proportions */
+  display: block;        /* makes it behave like a block element */
+  margin: 20px auto;     /* centers the image horizontally */
+  border-radius: 10px;   /* rounded corners */
+}
