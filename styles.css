@@ -1,2 +1,40 @@
+/* Global background and text styling */
+body {
+  background-color: lightpink;   /* whole site background */
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  padding: 10px;
+  color: black;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: deeppink;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: hotpink;
+}
+
+/* Section styling */
+section {
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
 
 
