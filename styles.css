@@ -35,11 +35,14 @@ section {
 
 
 
-img {
-  display: flex;
-  width: 300px;          /* sets image width */
-  height: auto;          /* keeps proportions */
-  display: block;        /* makes it behave like a block element */
-  margin: 20px auto;     /* centers the image horizontally */
-  border-radius: 10px;   /* rounded corners */
+.menu-pictures {
+  display: flex;             /* flexbox activates here */
+  justify-content: center;   /* center images horizontally */
+  gap: 20px;                 /* space between images */
+}
+
+.menu-pictures img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
 }
