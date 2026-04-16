@@ -36,6 +36,7 @@ section {
 
 
 img {
+  display: flex;
   width: 300px;          /* sets image width */
   height: auto;          /* keeps proportions */
   display: block;        /* makes it behave like a block element */
