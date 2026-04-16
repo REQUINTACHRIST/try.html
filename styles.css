@@ -46,3 +46,17 @@ section {
   height: auto;
   border-radius: 8px;
 }
+
+
+home-image {
+  display: flex;              /* use flexbox */
+  justify-content: center;    /* center horizontally */
+  align-items: flex-end;      /* push image to the bottom */
+  height: 100vh;              /* full viewport height */
+}
+
+home-image img {
+  width: 250px;               /* adjust size */
+  height: auto;
+  border-radius: 10px;        /* optional rounded corners */
+}
