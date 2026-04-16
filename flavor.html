@@ -1,52 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Flavor</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
-
 <body>
 
     <header>
-        <h1>Donut Lovers</h1>
+        <h1>Flavor</h1>
         <p>Life is better with fillings</p>
     </header>
 
-<nav>
-      <a href="#home">Home</a>
-      <a href="#flavor">Flavor</a>
-      <a href="#tips">Tips</a>
-      <a href="#">Feedback</a>
-      <a href="#">About Me</a>
-</nav>
-    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="flavor.html">Flavor</a>
+        <a hred="#">Tips</a>
+        <a hred="#">Tips</a>
+        <a hred="#">Tips</a>
+    </nav>
 
-    <br><br>
-    
-
-<section id="flavor">
-      <h2>Flavor</h2>
-      <p><strong>There are a lot of fillings and toppings you can add to your donut. Just select one and then submit it!</strong></p>
-      
-      <br><br>
-      <form action="/submit-flavor" method="post">
-        <label for="flavor">Choose your flavor:</label>
-        <select id="flavor" name="flavor">
-          <option value="chocolate">Chocolate</option>
-          <option value="strawberry">Strawberry</option>
-          <option value="vanilla">Vanilla</option>
-          <option value="blueberry">Blueberry</option>
-        </select>
-        <button type="submit">Submit Flavor</button>
-      </form>
-</section>
-      
-
-
+    <section>
+        <h2>Flavor</h2>
+        <p><strong>There are a lot of fillings and toppings you can add to your donut. Just select one and then submit it!</strong></p>
+        <form>
+            <label for="flavor">Choose your flavor:</label>
+            <select id="flavor" name="flavor">
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="blueberry">Blueberry</option>
+            </select>
+            <button type="button" onclick="alert('Flavor submitted!')">Submit Flavor</button>
+        </form>
+    </section>
 
 </body>
 </html>
