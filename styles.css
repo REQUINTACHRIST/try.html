@@ -48,13 +48,13 @@ section {
 }
 
 
-home-image {
+.home-image {
   display: flex;              /* use flexbox */
   justify-content: center;    /* center horizontally */
   height: 200vh;              /* full viewport height */
 }
 
-home-image img {
+.home-image img {
   width: 210px;               /* adjust size */
   height: auto;
   border-radius: 10px;        /* optional rounded corners */
