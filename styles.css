@@ -1,5 +1,9 @@
-body{
-background:lighpink;
-color:white;
-  
+
+body {
+  background-color: lightpink;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  padding: 10px;
+  color: black;
 }
+
