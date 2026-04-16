@@ -48,14 +48,16 @@ section {
 }
 
 
-.home-image {
-  display: flex;              /* use flexbox */
-  justify-content: center;    /* center horizontally */
-  height: 200vh;              /* full viewport height */
+.home-pictures {
+  display: flex;             /* flexbox activates here */
+  justify-content: center;   /* center images horizontally */
+  gap: 20px;                 /* space between images */
 }
 
-.home-image img {
-  width: 210px;               /* adjust size */
+.home-pictures img {
+  width: 210px;
   height: auto;
-  border-radius: 10px;        /* optional rounded corners */
+  border-radius: 8px;
 }
+
+
