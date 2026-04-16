@@ -51,12 +51,11 @@ section {
 home-image {
   display: flex;              /* use flexbox */
   justify-content: center;    /* center horizontally */
-  align-items: flex-end;      /* push image to the bottom */
-  height: 100vh;              /* full viewport height */
+  height: 200vh;              /* full viewport height */
 }
 
 home-image img {
-  width: 250px;               /* adjust size */
+  width: 210px;               /* adjust size */
   height: auto;
   border-radius: 10px;        /* optional rounded corners */
 }
